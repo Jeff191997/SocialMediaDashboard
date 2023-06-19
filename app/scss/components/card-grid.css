@@ -1,1 +1,21 @@
-/*# sourceMappingURL=card-grid.css.map */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 1.3125rem;
+  justify-items: start;
+  align-items: center;
+}
+.card-grid .card__subtitle {
+  justify-self: start;
+}
+.card-grid .card__count {
+  justify-self: start;
+  margin-bottom: 0;
+}
+.card-grid img, .card-grid .card__change {
+  justify-self: end;
+}
+.card-grid .card__count, .card-grid .card__change {
+  align-self: end;
+}/*# sourceMappingURL=card-grid.css.map */
