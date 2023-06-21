@@ -18,7 +18,7 @@
   position: relative;
   overflow: hidden;
   padding: 1.5625rem;
-  background-color: var(--dark-card);
+  background-color: var(--card-bg);
   color: var(--dark-text1);
   text-align: center;
   border-radius: 0.3125rem;
@@ -26,7 +26,7 @@
   cursor: pointer;
 }
 .card:hover {
-  background-color: var(--card-hover);
+  background-color: var(--card-hover-light);
 }
 .card--facebook {
   border-top: 0.3125rem solid var(--facebook);
@@ -72,7 +72,7 @@
   margin-bottom: 1.5625rem;
 }
 .card__count {
-  color: var(--light-bg);
+  color: var(--text-color2);
   font-weight: 700;
   letter-spacing: -0.125rem;
   line-height: 1;
